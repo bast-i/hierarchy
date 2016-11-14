@@ -13,7 +13,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 COLOR = "#33CC33"
 
 # get CF environment variables
-#port = int(os.getenv("PORT"))
+port = int(os.getenv("PORT"))
 
 #VCAP_APPLICATION = json.loads(os.environ['VCAP_APPLICATION'])
 #app_instance = int(VCAP_APPLICATION['instance_index'])
